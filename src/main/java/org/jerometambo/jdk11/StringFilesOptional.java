@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class MyClass {
+public class StringFilesOptional {
     
     public static void main(String... args)
             throws IOException, URISyntaxException {
@@ -20,12 +20,11 @@ public class MyClass {
         files();
     
         optional();
-    
+     
     }
     
     private static void string() {
         System.out.println("String.repeat : " + "repeat-".repeat(3));
-        System.out.println("String.isBlank(\" \") : " + " ".isBlank());
         System.out.println("String.isBlank(\" \") : " + " ".isBlank());
         String desLignesEncoreDesLignes = "abc\nbac\ncab\nbbc";
         

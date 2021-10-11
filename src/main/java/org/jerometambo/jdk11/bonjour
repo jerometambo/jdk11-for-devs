@@ -1,0 +1,11 @@
+#!/c/Dev/jdk-11/bin/java --source 11
+
+public class SimpleInterest{
+    public static void main(String[] args){
+        if ( args == null || args.length != 1 ){
+            System.err.println("Bonjour qui je vous prie ?");
+            System.exit(1);
+        }
+        System.out.print("Bonjour " + args[0]);
+    }
+}
