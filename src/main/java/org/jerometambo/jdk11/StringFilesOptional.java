@@ -60,7 +60,7 @@ public class StringFilesOptional {
         
         System.out.println("Files.readString");
         System.out.println(jdk13);
-        Files.writeString(Path.of(path), "écris daddy", StandardCharsets.UTF_8);
+        Files.writeString(Path.of(path), "écris dans jdk13.txt", StandardCharsets.UTF_8);
         
         URI uri11 = ClassLoader.getSystemResource("jdk11.txt").toURI();
         URI uri12 = ClassLoader.getSystemResource("jdk12.txt").toURI();
